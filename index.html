@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="view high scores">High score: <span id="high score">0</span></div>
+    <header>
+    <div class="view-high-score">High score: <span id="high score">0</span></div>
     
     <div class="timer">Time: <span id="time">0</span></div>
+    </header>
     
     <div class="wrapper">
         <div id="start-screen" class="start">
@@ -26,7 +28,7 @@
         </div>
         <div id="end-screen" class="hide">
             <h2>All done!</h2>
-            <p>Your final score is <span id="final-score"></span>.</p>
+            <p>Your final score is<span id="final-score"></span>.</p>
             <p>
               Enter initials: <input type="text" id="initials" max="3" />
               <button id="submit">Submit</button>

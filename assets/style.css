@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 125 px auto 0 auto;
+    max-width: 450px;
+}
+
+.start {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.view-high-score {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
